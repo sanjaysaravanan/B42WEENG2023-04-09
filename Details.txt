@@ -1,0 +1,34 @@
+Topics:
+  useRef, useReducer
+
+  We should not use document in react, instead use useRef only for actions
+  like play, click, submit, scroll, scrollIntoView
+
+
+  when we have situations where we need to handle more number states.
+    eg: Calc, operations based different operator, store different operands
+
+  We need some mechanism to hanle all the state value in one place
+  that case we use  useReducer
+
+  TicTacToe in React
+
+Questions From Candidates:
+  mostly while using MUI, I observed that we are using inline styling(sx). When I tried to use normal css file styling, most of the times, it is getting overridden by the mui styles. How could we avoid that sir? 
+  I also tried using !important. It worked for few scenarios, but not for all.
+
+  How to stop the render till some condition satisfied.
+  conditional return '' before return of actual DOM
+
+
+Task & Reference:
+  Go Through over MUI:
+    styled component
+    media query in MUI
+    Grid System in MUI
+  
+  Day 22: Task ( please try to complete)
+  Day 26 Task:
+
+Next Session:
+Theme Mode Changes
